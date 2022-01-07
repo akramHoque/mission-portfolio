@@ -5,39 +5,36 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
-#color{
-    color: rgb(248, 105, 23);
+.color{
+    color: rgba(250, 124, 51, 0.731);
 }
 
 h1{
-    font-size: 40px;  
+    font-size: 35px;  
 }
-
-.heading-style{
+.heading1-style{
     line-height: 25px;
-    font-weight: 900;
+    font-weight: 700;
     color: rgba(8, 8, 8, 0.8);
 }
-
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
-
 .set-width{
     width: 50%;
     padding-left: 3%;
 }
 .set-width img{
-    width: 80%;   
+    width: 75%;   
 }
 .click-button{
     text-decoration: none;
     color: white;
-   background-image: linear-gradient(rgb(248, 61, 36), rgba(241, 81, 28, 0.896));
+   background-image: linear-gradient(rgb(243, 168, 70), rgb(243, 56, 87));
     padding: 10px 45px;
     border-radius: 5px;
-    font-weight: 700;
+    font-weight: 400;
 }
 #border-slice{
     border-image: linear-gradient(rgb(250, 168, 17),rgb(240, 74, 44));
@@ -46,14 +43,46 @@ section{
     padding-left: 10px;
     width: auto;  
 }
-
 .set-border-radius{
     border-radius: 10px;
 }
 .heading-2-style{
    font-weight: 600;
    color: rgb(29, 23, 23);
-   line-height: 20px;
-   
+   line-height: 20px; 
 }
+#text-color{
+    color: rgba(124, 124, 248, 0.924);
+}
+.div-style{ 
+    width: 30%;
+    padding: 10px 10px;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px; 
+}
+.mission-bg-color{
+    background-color: rgb(218, 215, 205);
+}
+.vision-bg-color{
+    background-color: rgb(187, 205, 231);  
+}
+.goals-bg-color{
+    background-color: rgb(191, 236, 226);  
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;  
+}
+footer p{
+    font-size: 10px;   
+}
+footer h3{
+font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
 
