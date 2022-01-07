@@ -47,4 +47,13 @@ section{
     width: auto;  
 }
 
+.set-border-radius{
+    border-radius: 10px;
+}
+.heading-2-style{
+   font-weight: 600;
+   color: rgb(29, 23, 23);
+   line-height: 20px;
+   
+}
 
